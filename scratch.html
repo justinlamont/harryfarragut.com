@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Scratch</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <form method="POST">
+            
+            <fieldset>
+                <legend>Basic Info:</legend>
+                First Name:<br/>
+                <input type="text" name="firstname"><br/>
+                Last Name:<br/>
+                <input type="text" name="lastname"><br/>    
+            </fieldset>
+
+
+
+
+            <fieldset>
+                <legend>Sensitive Info</legend>
+                
+                <input type="radio" name="gender" id="two-spirit" value="two-spirit" checked>
+                <label for="two-spirit">Two-Spirit</label>
+                
+                <input type="radio" name="gender" id="queer" value="queer">
+                <label for="queer">Queer</label>
+                <br/>
+
+                <select name="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="Aston">Aston</option>
+                    <option value="Ferrari">Ferrari</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Nissan">Nissan</option>
+                </select>
+            </fieldset>
+
+            <input type="submit">
+        </form>
+    </body>
+</html>
